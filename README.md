@@ -8,6 +8,8 @@ def add(x, y):
 # This function subtracts two numbers
 def subtract(x, y):
     return x - y
+def subtract(x, y):
+    return x - y
 
 # This function multiplies two numbers
 def multiply(x, y):
@@ -23,6 +25,7 @@ print("1.Add")
 print("2.Subtract")
 print("3.Multiply")
 print("4.Divide")
+print("5.Function")
 
 while True:
     # take input from the user
@@ -47,7 +50,7 @@ while True:
         
         # check if user wants another calculation
         # break the while loop if answer is no
-        next_calculation = input("Let's do next calculation? (yes/no): ")
+        next_calculation = input("Let's do next calculation? (true/false): ")
         if next_calculation == "no":
           break
     
